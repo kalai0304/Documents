@@ -1,1 +1,6 @@
 ssdh
+git config --local user.name
+git config --local user.email
+
+git config --local user.name "kalai0304"
+git config --local user.email "kalaiyarasan0304@gmail.com"
