@@ -4,3 +4,5 @@ git config --local user.email
 
 git config --local user.name "kalai0304"
 git config --local user.email "kalaiyarasan0304@gmail.com"got
+
+ssh-keygen -t rsa -b 4096 -C "kalaiyarasan0304@gmail.com"
