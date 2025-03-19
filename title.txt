@@ -7,3 +7,7 @@ if [ "$GIT_AUTHOR_EMAIL" = "kalaiyarasan0304@gmail.com" ]; then
 fi
 ' --tag-name-filter cat -- --branches --tags
 git push --force  
+
+
+git config --global user.name "kalai0304"
+git config --global user.email "kalaiyarasan0304@gmail.com"
