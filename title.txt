@@ -1,0 +1,9 @@
+git filter-branch --env-filter '
+if [ "$GIT_AUTHOR_EMAIL" = "kalaiyarasan0304@gmail.com" ]; then
+    export GIT_AUTHOR_NAME="kalai0304"
+    export GIT_AUTHOR_EMAIL="kalaiyarasan0304@gmail.com"
+    export GIT_COMMITTER_NAME="kalai0304"
+    export GIT_COMMITTER_EMAIL="kalaiyarasan0304@gmail.com"
+fi
+' --tag-name-filter cat -- --branches --tags
+git push --force
