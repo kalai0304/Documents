@@ -11,3 +11,15 @@ git push --force
 
 git config --global user.name "kalai0304"
 git config --global user.email "kalaiyarasan0304@gmail.com"
+
+1)
+without any block formula
+   n+m !/n! * m!
+
+through s,y 
+A = (1,1 - s,y) -> s+y !/s! * y!
+B = (s,y -> n,m) -> (n-s + m-y) ! / (n-s! * m-y)!
+
+total_value _= A*B;
+
+2) 
